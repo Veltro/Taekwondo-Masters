@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Labels_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: d1127fc18868bd74188091c0be9ff790, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 282752162851455004
+  m_TableData:
+  - m_Id: 295125032960
+    m_Localized: 'Faixa: {belt}'
+    m_Metadata:
+      m_Items:
+      - rid: 282752162851455004
+  - m_Id: 18462614396928
+    m_Localized: Branca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22451493969920
+    m_Localized: Branca ponta Amarela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28736708845568
+    m_Localized: Amarela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28740655685632
+    m_Localized: Amarela ponta Verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28743658807296
+    m_Localized: Verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28812239872000
+    m_Localized: Verde ponta Azul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28999393910784
+    m_Localized: Azul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29036328951808
+    m_Localized: Vermelha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29020235407360
+    m_Localized: Azul ponta Vermelha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29050551836672
+    m_Localized: Vermelha ponta Preta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29067375190016
+    m_Localized: "Preta 1\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29127655727104
+    m_Localized: "Preta 2\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29145879977984
+    m_Localized: "Preta 3\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29167333842944
+    m_Localized: "Preta 4\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29178666852352
+    m_Localized: "Preta 5\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29192986206208
+    m_Localized: "Preta 6\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29220123353088
+    m_Localized: "Preta 8\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29206051463168
+    m_Localized: "Preta 7\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29232177782784
+    m_Localized: "Preta 9\xBADAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29244190269440
+    m_Localized: "Preta 10\xBADAN"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 282752162851455004
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 295125032960

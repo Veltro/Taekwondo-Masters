@@ -1,0 +1,24 @@
+{
+    "Belts": {
+        "Gub10": "Branca",
+        "Gub9": "Branca ponta Amarela",
+        "Gub8": "Amarela",
+		"Gub7": "Amarela ponta Verde",
+		"Gub6": "Verde",
+		"Gub5": "Verde ponta Azul",
+		"Gub4": "Azul",
+		"Gub3": "Azul ponta Vermelha",
+		"Gub2": "Vermelha",
+		"Gub1": "Vermelha ponta Preta",
+		"Dan1": "Preta 1ºDAN",
+		"Dan2": "Preta 2ºDAN",
+		"Dan3": "Preta 3ºDAN",
+		"Dan4": "Preta 4ºDAN",
+		"Dan5": "Preta 5ºDAN",
+		"Dan6": "Preta 6ºDAN",
+		"Dan7": "Preta 7ºDAN",
+		"Dan8": "Preta 8ºDAN",
+		"Dan9": "Preta 9ºDAN",
+        "Dan10": "Preta 10ºDAN"
+    }
+}

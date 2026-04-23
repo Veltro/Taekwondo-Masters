@@ -1,6 +1,6 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections; // Required for Coroutines
 
 public class PlayerMovement2D : MonoBehaviour
 {
@@ -8,94 +8,129 @@ public class PlayerMovement2D : MonoBehaviour
     [SerializeField] private Animator _animator;
     private Vector2 _movementInput;
     private Rigidbody2D _rb;
+    private bool _isJumpingLocal;
+    private bool _isAttackingLocal;
+
+    // New variables for the "Return to Position" mechanic
+    private float _startJumpY;
+    private bool _isReturningToGround = false;
+
     public InputActionReference move;
     public InputActionReference jump;
     public InputActionReference attack;
 
     void Start()
     {
-        // Certifique-se que o Rigidbody2D está anexado ao objeto Player
         _rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    void Update()
     {
         _movementInput = move.action.ReadValue<Vector2>();
+        bool isMoving = _movementInput.magnitude > 0;
+        _animator.SetBool("isRunning", isMoving);
+        _animator.SetBool("isIdle", !isMoving && !_isJumpingLocal && !_isAttackingLocal);
     }
 
     void FixedUpdate()
     {
-        // Usar Rigidbody2D para movimento
-        _rb.velocity = new Vector2(_movementInput.x * moveSpeed, _movementInput.y * moveSpeed);
+        float horizontalVelocity = _movementInput.x * moveSpeed;
 
-        // Atualizar animação com base no movimento
+        // If we are returning to the original position, we let the Coroutine handle Y
+        // Otherwise, use physics/input velocity
+        float verticalVelocity = _isJumpingLocal ? _rb.linearVelocity.y : _movementInput.y * moveSpeed;
+
+        _rb.linearVelocity = new Vector2(horizontalVelocity, verticalVelocity);
+
         if (_movementInput.magnitude > 0)
         {
-            Debug.Log("Movimento iniciado!");
-            _animator.SetTrigger("isRunning");
             _animator.SetBool("isRunning", true);
-            _animator.SetBool("isIdle", false);
         }
         else
         {
-            Debug.Log("Movimento parado!");
-            _animator.ResetTrigger("isRunning");
             _animator.SetBool("isRunning", false);
-            _animator.SetBool("isIdle", true);
         }
     }
 
     public void OnEnable()
     {
-        attack.action.started += Attack;
-        jump.action.started += Jump;
+        jump.action.performed += OnJump;
+        attack.action.started += OnAttack;
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
-        attack.action.started -= Attack;
-        jump.action.started -= Jump;
-    }
-    public void Move(InputAction.CallbackContext context)
-    {
-        // Capturar input de movimento
-        _movementInput = context.ReadValue<Vector2>();
-        Debug.Log("Movimento realizado!");
+        jump.action.performed -= OnJump;
+        attack.action.started -= OnAttack;
     }
 
-    private void Jump(InputAction.CallbackContext context)
+    public void OnJump(InputAction.CallbackContext context)
     {
-        if (context.started)
+        JumpEvent();
+        if (!_isJumpingLocal && !_isReturningToGround)
         {
-            Debug.Log("Pulo realizado!");
-            _animator.SetTrigger("isJumping"); // Usar Trigger para animação de ataque
+            // STEP 1: Capture the starting Y position before moving
+            _startJumpY = transform.position.y;
+
+            _isJumpingLocal = true;
             _animator.SetBool("isJumping", true);
-            _animator.SetBool("isIdle", false);
-        }
-        else
-        {
-            Debug.Log("Pulo parado!");
-            _animator.ResetTrigger("isJumping");
-            _animator.SetBool("isJumping", false);
-            _animator.SetBool("isIdle", true);
+
+            // Apply upward impulse
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, moveSpeed);
+
+            // Trigger the reset after the jump height phase
+            Invoke(nameof(ResetJump), 0.5f);
         }
     }
 
-    public void Attack(InputAction.CallbackContext context)
+    public void OnAttack(InputAction.CallbackContext context)
     {
-        if (context.started)
+        AttackEvent();
+        if (!_isAttackingLocal)
         {
-            Debug.Log("Ataque realizado!");
-            _animator.SetTrigger("isAttacking"); // Usar Trigger para animação de ataque
-            _animator.SetBool("isAttacking", true);
-            _animator.SetBool("isIdle", false);
+            _isAttackingLocal = true;
+            _animator.SetTrigger("attackTrigger");
+            Invoke(nameof(ResetAttack), 0.5f);
         }
-        else
+    }
+
+    public void JumpEvent() => Debug.Log("Evento de Pular Executado!");
+    public void AttackEvent() => Debug.Log("Evento de atacar Executado!");
+
+    private void ResetJump()
+    {
+        _isJumpingLocal = false;
+        _animator.SetBool("isJumping", false);
+
+        // STEP 2: Start the process of moving back to the original height
+        StartCoroutine(ReturnToOriginalHeight());
+    }
+
+    // STEP 3: The Coroutine that pulls the player back down
+    private IEnumerator ReturnToOriginalHeight()
+    {
+        _isReturningToGround = true;
+        float elapsed = 0f;
+        float duration = 0.5f; // How long the descent should take
+
+        while (elapsed < duration)
         {
-            Debug.Log("Ataque parado!");
-            _animator.ResetTrigger("isAttacking");
-            _animator.SetBool("isAttacking", false);
-            _animator.SetBool("isIdle", true);
+            elapsed += Time.deltaTime;
+            float newY = Mathf.Lerp(transform.position.y, _startJumpY, elapsed / duration);
+
+            // We update the position via Rigidbody to keep physics interactions smooth
+            _rb.position = new Vector2(transform.position.x, newY);
+            yield return null;
         }
+
+        // Ensure we land exactly at the starting height
+        _rb.position = new Vector2(transform.position.x, _startJumpY);
+        _isReturningToGround = false;
+    }
+
+    private void ResetAttack()
+    {
+        _isAttackingLocal = false;
+        _animator.SetBool("isAttacking", false);
     }
 }

@@ -1,0 +1,24 @@
+{
+    "Belts": {
+        "Gub10": "White",
+        "Gub9": "Yellow Tag",
+        "Gub8": "Yellow",
+		"Gub7": "Green Tag",
+		"Gub6": "Green",
+		"Gub5": "Blue Tag",
+		"Gub4": "Blue",
+		"Gub3": "Red Tag",
+		"Gub2": "Red",
+		"Gub1": "Black Tag",
+		"Dan1": "Black 1st DAN",
+		"Dan2": "Black 2nd DAN",
+		"Dan3": "Black 3rd DAN",
+		"Dan4": "Black 4th DAN",
+		"Dan5": "Black 5th DAN",
+		"Dan6": "Black 6th DAN",
+		"Dan7": "Black 7th DAN",
+		"Dan8": "Black 8th DAN",
+		"Dan9": "Black 9th DAN",
+        "Dan10": "Black 10th DAN"
+    }
+}

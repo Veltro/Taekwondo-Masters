@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI_Labels Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI_Labels
+  m_TableCollectionNameGuidString: d1127fc18868bd74188091c0be9ff790
+  m_Entries:
+  - m_Id: 295125032960
+    m_Key: menu.belt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18462614396928
+    m_Key: belt.gub10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22451493969920
+    m_Key: belt.gub9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28736708845568
+    m_Key: belt.gub8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28740655685632
+    m_Key: belt.gub7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28743658807296
+    m_Key: belt.gub6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28812239872000
+    m_Key: belt.gub5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28999393910784
+    m_Key: belt.gub4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29020235407360
+    m_Key: belt.gub3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29036328951808
+    m_Key: belt.gub2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29050551836672
+    m_Key: belt.gub1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29067375190016
+    m_Key: belt.dan1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29127655727104
+    m_Key: belt.dan2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29145879977984
+    m_Key: belt.dan3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29167333842944
+    m_Key: belt.dan4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29178666852352
+    m_Key: belt.dan5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29192986206208
+    m_Key: belt.dan6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29206051463168
+    m_Key: belt.dan7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29220123353088
+    m_Key: belt.dan8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29232177782784
+    m_Key: belt.dan9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29244190269440
+    m_Key: belt.dan10
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 282752162851455002
+  references:
+    version: 2
+    RefIds:
+    - rid: 282752162851455002
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1745871311832

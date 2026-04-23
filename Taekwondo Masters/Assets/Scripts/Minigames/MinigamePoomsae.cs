@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class MinigamePoomsae : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI instructionsText;
-    public string[] commandSequence = { "Up", "Right", "Down", "Left" }; // Sequência de comandos
+    public string[] commandSequence = { "Up", "Right", "Down", "Left" }; // SequÃªncia de comandos
     private int currentIndex = 0;
     private float timer = 3f; // Tempo para o jogador seguir os comandos
 
@@ -37,7 +37,7 @@ public class MinigamePoomsae : MonoBehaviour
 
         if (timer <= 0f)
         {
-            Debug.Log("Tempo esgotado! Tente novamente.");
+            //Debug.Log("Tempo esgotado! Tente novamente.");
             ResetSequence();
         }
     }
@@ -50,7 +50,7 @@ public class MinigamePoomsae : MonoBehaviour
         }
         else
         {
-            Debug.Log("Parabéns! Você completou o Poomsae!");
+            //Debug.Log("ParabÃ©ns! VocÃª completou o Poomsae!");
             ResetSequence();
         }
     }

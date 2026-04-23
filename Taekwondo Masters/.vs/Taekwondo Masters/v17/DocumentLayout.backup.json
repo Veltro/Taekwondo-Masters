@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|c:\\users\\jesus\\documents\\game dev\\taekwondo-masters\\taekwondo masters\\assets\\scripts\\player\\playermovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\minigames\\minigamebreaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\minigamebreaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\xpmanager\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\xpmanager\\hudmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\savemanager\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savemanager\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\sceneloader\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\minigames\\minigamepoomsae.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\minigamepoomsae.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\xpmanager\\xpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\xpmanager\\xpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\xpmanager\\belts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\xpmanager\\belts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\assets\\scripts\\localization\\languageselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D8FF204-B14F-6967-55EF-49C36EA36392}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localization\\languageselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Library\\PackageCache\\com.unity.ai.assistant@1311ffcbb798\\Modules\\Unity.AI.Tracing\\TraceSinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ai.assistant@1311ffcbb798\\Modules\\Unity.AI.Tracing\\TraceSinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TraceSinks.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Library\\PackageCache\\com.unity.ai.assistant@1311ffcbb798\\Modules\\Unity.AI.Tracing\\TraceSinks.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ai.assistant@1311ffcbb798\\Modules\\Unity.AI.Tracing\\TraceSinks.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Library\\PackageCache\\com.unity.ai.assistant@1311ffcbb798\\Modules\\Unity.AI.Tracing\\TraceSinks.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ai.assistant@1311ffcbb798\\Modules\\Unity.AI.Tracing\\TraceSinks.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAlwKIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T21:21:19.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LanguageSelector.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Localization\\LanguageSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Localization\\LanguageSelector.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Localization\\LanguageSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Localization\\LanguageSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:34:29.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Belts.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\XPManager\\Belts.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\XPManager\\Belts.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\XPManager\\Belts.cs",
+              "RelativeToolTip": "Assets\\Scripts\\XPManager\\Belts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T21:10:54.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XPManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\XPManager\\XPManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\XPManager\\XPManager.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\XPManager\\XPManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\XPManager\\XPManager.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAlwHcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:45:15.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HUDManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\XPManager\\HUDManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\XPManager\\HUDManager.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\XPManager\\HUDManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\XPManager\\HUDManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:43:25.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaveSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\SaveManager\\SaveSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveManager\\SaveSystem.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\SaveManager\\SaveSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveManager\\SaveSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:33:40.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinigamePoomsae.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Minigames\\MinigamePoomsae.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Minigames\\MinigamePoomsae.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Minigames\\MinigamePoomsae.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Minigames\\MinigamePoomsae.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:32:01.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SceneTransition.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\SceneLoader\\SceneTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader\\SceneTransition.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\SceneLoader\\SceneTransition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneLoader\\SceneTransition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:30:46.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MinigameBreaker.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Minigames\\MinigameBreaker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Minigames\\MinigameBreaker.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Minigames\\MinigameBreaker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Minigames\\MinigameBreaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T21:10:37.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement2D.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Player\\PlayerMovement2D.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement2D.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Documents\\Game DEV\\Taekwondo-Masters\\Taekwondo Masters\\Assets\\Scripts\\Player\\PlayerMovement2D.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement2D.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:43:00.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
